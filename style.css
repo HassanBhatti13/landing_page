@@ -44,4 +44,44 @@ a {
     font-weight: 400;
 }
 
+.info {
+    background-color: #F9FAF8;
+    padding: 0 60px 0 60px;
+}
 
+.info_header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info_secondary_text {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.quote_background {
+    background-color:   #E5E7EB;
+    padding: 0 60px 0 60px;
+}
+
+.quote_text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.outer {
+    background-color: #F9FAF8;
+    padding: 30px 60px 30px 60px;
+}
+
+.inner {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+#button_padding {
+ border: 2px solid white;
+}
