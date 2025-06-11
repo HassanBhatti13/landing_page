@@ -70,12 +70,14 @@ a {
 
 .outer {
     background-color: #F9FAF8;
-    padding: 60px 130px 60px 130px;
+    padding: 90px 130px 90px 130px;
 }
 
 .inner {
     background-color: #3882F6;
     color: #E5E7EB;
+    padding: 60px 130px 60px 130px;
+    border-radius: 8px;
 }
 
 #button_padding {
@@ -86,7 +88,6 @@ a {
 
 .header {
     display: flex;
-    /* padding: 10px; */
     align-items: center;
 
 }
@@ -132,8 +133,24 @@ a {
  .quote_background {
     display: flex;
     flex-direction: column;
+    justify-content: center;
  }
 
  .quote_credit {
     align-self: flex-end;
  }
+
+ .blue_section {
+    display: flex;
+    align-items: center;
+  }
+
+ #button_padding {
+     margin-left: auto;
+ }
+
+ #footer {
+    padding: 30px 0 30px 0;
+    text-align: center;
+ }
+
