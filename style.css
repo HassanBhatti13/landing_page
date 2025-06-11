@@ -25,11 +25,6 @@ body {
     color: #E5E7EB;
 }
 
-ul {
-    list-style: none;
-    padding: 0%;
-}
-
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -85,3 +80,28 @@ a {
 #button_padding {
  border: 2px solid white;
 }
+
+/* Flex Layout from here onwards */
+
+.header {
+    display: flex;
+    /* padding: 10px; */
+    align-items: center;
+
+}
+
+.links {
+  margin-left: auto;
+}
+
+
+.links ul{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    gap: 24px;
+ }
+
+ .main {
+    padding: 50px 0 50px 0;
+ }
