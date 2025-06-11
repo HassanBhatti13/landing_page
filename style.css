@@ -58,7 +58,7 @@ a {
 
 .quote_background {
     background-color:   #E5E7EB;
-    padding: 0 130px 0 130px;
+    padding: 60px 190px 60px 190px;
 }
 
 .quote_text {
@@ -129,4 +129,11 @@ a {
     align-items: flex-start;
   }
 
- 
+ .quote_background {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .quote_credit {
+    align-self: flex-end;
+ }
